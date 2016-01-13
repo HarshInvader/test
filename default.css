@@ -7,7 +7,7 @@
 	{
 		margin: 0px;
 		padding: 0px;
-		background: #333333;
+		background: #333333;bu
 		font-family: 'Source Sans Pro', sans-serif;
 		font-size: 12pt;
 		font-weight: 400;
@@ -288,7 +288,7 @@
         
         .button
         {
-               cursor: url(stopo.png), auto;
+               cursor: url('http://i.imgur.com/DKvde1O.png'), auto;
         }
                 	
 
