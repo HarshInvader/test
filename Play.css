@@ -1,7 +1,7 @@
 *{margin:0;padding:0;}
 p{font-family:"Times New Roman", Times, serif;}
-body{background-image:url("http://www.colorhexa.com/0e4743.png");}
-video#fullscreen{position:fixed;right:0;bottom:0;min-width:100%;min-height:100%;width:auto;height:auto;z-index:-100;background:url("http://www.colorhexa.com/0e4743.png") no-repeat;background-size:cover;}
+body{background-image:url("http://html-color.org/F50911.jpg");}
+video#fullscreen{position:fixed;right:0;bottom:0;min-width:100%;min-height:100%;width:auto;height:auto;z-index:-100;background:url("http://html-color.org/F50911.jpg") no-repeat;background-size:cover;}
 .container{cursor:url(stopo.png), auto;}
 .container{padding:300px;text-align:center;}
 .timer{padding:20px;background:linear-gradient(top, #222, #444);overflow:hidden;display:inline-block;border:100px transparent;#696969;position:relative;}
