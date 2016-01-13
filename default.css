@@ -286,11 +286,7 @@
 		color: #9900CC;
 	}
         
-        .button
-        {
-               cursor: url('http://i.imgur.com/DKvde1O.png'), auto;
-        }
-                	
+        	
 
 	.button:before
 	{
@@ -310,6 +306,7 @@
        
                 
                 background: #470E29;
+                cursor: url('http://i.imgur.com/DKvde1O.png'), auto;
                 
 }
 	
