@@ -11,23 +11,6 @@ body  {
    
 }
 
-	
-video#fullscreen{
- 
-     position:fixed;
-     right:0;
-     bottom:0;
-     min-width:100%;
-     min-height:100%;
-     width: auto;
-     height: auto;
-     z-index: -100;
-     background: url("http://orig10.deviantart.net/0cc6/f/2013/291/e/c/wallpaper___loading_wallpaper_jpg_by_nightmaredashy-d6qyb7x.jpg") no-repeat;
-     background-size: cover;
-     
-     
-
-} 
 
 .container {
 	cursor: url('http://icons.iconarchive.com/icons/icons8/windows-8/32/Sports-Stopwatch-icon.png'), auto;
