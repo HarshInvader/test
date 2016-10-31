@@ -58,7 +58,7 @@ video#fullscreen{
 	and width = width of .numbers*/
 	width: 0.60em;
 	height: 120px;
-        padding: 90px;
+       
 	font-size: 120px;
 	overflow: hidden;
 	position: relative;
@@ -68,7 +68,7 @@ video#fullscreen{
 .numbers {
 	width: 0.6em;
 	line-height: 114px;
-        padding: 90px;
+        
 	font-family: digital, arial, verdana;
         text-shadow: 0px 0.64vw 0px #000000;
         font-weight: bold;
