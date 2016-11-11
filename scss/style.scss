@@ -1,0 +1,236 @@
+$casio-color: #394443;
+
+html{
+  background: #4e92a5;
+}
+
+.container{
+  align-items: center;
+  background-size: 300px;
+  background-position: center;
+  display: flex;
+  flex-flow: column wrap;
+  font-family: sans-serif;
+  height: calc(100vh - 16px);
+  min-height:300px;
+  justify-content: center;
+  position: relative;
+  z-index: 0;
+  button{
+    cursor: pointer;
+  }
+}
+
+.watch-band{
+  background: darken($casio-color,20%);
+  height: 40px;
+  width: 130px;
+}
+.top{
+  border-radius: 80px 80px 80px 0px / 200px 200px 0px 0px;
+}
+.bottom{
+  border-radius: 0px 0px 80px 80px / 0px 0px 200px 200px;
+}
+
+.watch-frame{
+  align-items: center;
+  background: darken($casio-color,10%);
+  border-radius: 20px;
+  color: white;
+  display: flex;
+  height: 180px;
+  width: 170px;
+  .right-operations{
+    display: flex;
+    flex-flow: column;
+  }
+  .operation{
+    align-items: center;
+    color: #f4ea7c;
+    display: flex;
+    font-size: 10px;
+    height: calc(180px / 4);
+    list-style-type: none;
+    position: relative;
+    width: 5px;
+    button{
+      background: $casio-color;
+      border: none;
+      height: 15px;
+      width: 2px;
+      z-index: -1;
+    }
+  }
+}
+
+.right-operations{
+  span{
+    left: -3px;
+    position: absolute;
+    top:16px;
+  }
+  button{
+    border-radius: 0px 5px 5px 0px;
+  }
+}
+.left-operations{
+  span{
+    left: 1px;
+    font-size:8px;
+    position: absolute;
+  }
+  button{
+    border-radius: 5px 0px 0px 5px;
+    left: -7px;
+    position: absolute;
+  }
+}
+
+.watch{
+  background: darken(#3f4239,5%);
+  border-radius: 15px;
+  box-sizing: border-box;
+  height: 160px;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 5px;
+  width: 150px;
+}
+.screen-frame{
+  background: black;
+  border-radius: 15px 15px 8px 8px;
+  box-shadow: inset 0px 0px 0px 2px $casio-color,0px 0px 0px 1px darken($casio-color,10%);
+  height: 70px;
+  position: relative;
+  width: 140px;
+  .frame-header{
+    color: white;
+    display: flex;
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 12px;
+    justify-content: space-around;
+    list-style-type: none;
+    line-height: 20px;
+    *{
+      margin: 0;
+    }
+  }
+  .week-days{
+    display: flex;
+    font-size: 7px;
+    list-style-type: none;
+    left: 20px;
+    position: absolute;
+    top: 16px;
+    li{
+      margin: 2px;
+    }
+  }
+  .left-instructions{
+    color: #f4ea7c;
+    font-size: 7px;
+    list-style-type: none;
+    li{
+      position: absolute;
+      transform: rotate(90deg);
+    }
+    li:nth-child(1){
+      top: 20px;
+    }
+    li:nth-child(2){
+      top: 50px;
+    }
+  }
+  .right-instructions{
+    color: #f4ea7c;
+    font-size: 7px;
+    list-style-type: none;
+    position: absolute;
+    right: 17px;
+    top: 14px;
+    li{
+      position: absolute;
+      transform: rotate(270deg);
+    }
+    li:nth-child(1){
+      top: 41px;
+    }
+    li:nth-child(2){
+      top: 23px;
+    }
+    li:nth-child(3){
+      right: -17px;
+      top: 0px;
+    }
+  }
+  
+}
+.screen{
+  background: #aaa196;
+  border-radius: 2px;
+  box-shadow: inset 0px 0px 5px 4px rgba(0,0,0,.2);
+  box-sizing: border-box;
+  color: black;
+  font-size: 20px;
+  font-family: "Share Tech Mono",sans-serif;
+  height: 40px;
+  line-height: 45px;
+  overflow:hidden;
+  position: absolute;
+  right: 20px;
+  top: 25px;
+  text-align: right;
+  width: 100px;
+  .main{
+    margin-right: 5px;
+  }
+  .pm{
+    font-size: 9px;
+    left: 3px;
+    position: absolute;
+    top: -8px; 
+  }
+  .day{
+    background: rgb(20,20,20);
+    height: 3px;
+    left: 2px;
+    position: absolute;
+    top: 3px;
+    width: 10px;
+  }
+}
+.buttons{
+  background: black;
+  border-radius: 8px 8px 15px 15px;
+  box-shadow: inset 0px 0px 0px 1px white,0px 0px 0px 2px black;
+  font-size: 10px;
+  height: 70px;
+  margin-top: 10px;
+  overflow: hidden;
+  width: 140px;
+  .row{
+    color: white;
+    display: flex;
+    height: calc(70px / 3);
+    justify-content: space-around;
+    width: 140px;
+    li{
+      align-items: center;
+      border-width: 1px 1px 1px 1px;
+      border-style: solid;
+      border-color: white;
+      display: flex;
+      justify-content: center;
+      list-style-type: none;
+      width: calc(140px / 4);
+    }
+    button{
+      border-radius: 5px;
+      background: white;
+      height: 10px;
+      margin-left: 2px;
+      width: 18px;
+    }
+  }
+}
