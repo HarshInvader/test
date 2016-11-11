@@ -1,0 +1,129 @@
+﻿<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>HARSHA - Casio - C80</title>
+  <link href="https://fonts.googleapis.com/css?family=Share+Tech+Mono" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <div class="container">
+  <div class="watch-band top"></div>
+  
+  <div class="watch-frame">
+    <div class="left-operations">
+      <li class="operation">
+        <button class="time_btn"></button>
+        
+        <span>W</span>
+      </li>
+      
+      <li class="operation">
+        <button class="calc_btn"></button>
+        
+        <span>C</span>
+      </li>
+    </div>
+    <div class="watch">
+      <div class="screen-frame">
+        <div class="frame-header">
+          <li>CASIO</li>
+          
+          <li>C-80</li>
+        </div>
+        
+        <div class="week-days">
+          <li>SU</li>
+          
+          <li>MO</li>
+          
+          <li>TU</li>
+          
+          <li>WE</li>
+          
+          <li>TH</li>
+          
+          <li>FR</li>
+          
+          <li>SA</li>
+        </div>
+        
+        <div class="left-instructions">
+          <li>Light</li>
+          
+          <li>Mode</li>
+        </div>
+        
+        <div class="screen">
+          <div class="day"></div>
+          
+          <div class="pm"></div>
+          
+          <div class="main"></div>
+        </div>
+        
+        <div class="right-instructions">
+          <li>Start</li>
+          
+          <li>Stop</li>
+          
+          <li>Reset</li>
+        </div>
+      </div>
+      <div class="buttons">
+        <div class="row">
+          <li onClick="input(7)">7<button></button></li>
+          
+          <li onClick="input(8)">8<button></button></li>
+          
+          <li onClick="input(9)">9<button></button></li>
+          
+          <li onClick="input(0)">0<button></button></li>
+        </div>
+        
+        <div class="row">
+          <li onClick="input(4)">4<button></button></li>
+          
+          <li onClick="input(5)">5<button></button></li>
+          
+          <li onClick="input(6)">6<button></button></li>
+          
+          <li onClick="input('.')">.&nbsp;<button></button></li>
+        </div>
+        
+        <div class="row">
+          <li onClick="input(1)">1<button></button></li>
+          
+          <li onClick="input(2)">2<button></button></li>
+          
+          <li onClick="input(3)">3<button></button></li>
+          
+          <li onClick="input('+')">+<button></button></li>
+        </div>
+      </div>
+    </div>
+    
+    <div class="right-operations">
+      <li class="operation" onClick="input('/')"><span>÷</span><button></button></li>
+      
+      <li class="operation" onClick="input('*')"><span>x</span><button></button></li>
+      
+      <li class="operation" onClick="input('-')"><span>-</span><button></button></li>
+      
+      <li class="operation" onClick="solve()"><span>=</span><button></button></li>
+    </div>
+  </div>
+  
+  <div class="watch-band bottom"></div>
+</div>
+  
+    <script src="js/index.js"></script>
+
+</body>
+</html>
